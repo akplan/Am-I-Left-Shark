@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html>
+  <head>
+
+  <style>
+  
+	h1{
+		text-align: center;
+		font-size: 4.75em;		
+		font-family:Arial;
+		font-color: black;
+	}
+	
+	h8{
+		text-align: center;
+		font-family:Arial;
+		font-color: black;
+	
+	}
+	
+	body {
+		background-color: #6C96BA;
+	
+	}
+	
+	  </style>
+
+   
+    <title>Am I Left Shark?</title>
+    
+  </head>
+  
+  <body>
+ <h1>YES</h1>
+ 
+<embed src="California Girls.mp3" autostart="true" hidden="true" loop="true"> 
+
+
+<script type = "text/javascript">
+
+
+sharkImages = new Array;
+sharkImages[0] = new Image();
+sharkImages[0].src = "lsharkf-lfin-lfoot-up.png";
+sharkImages[1] = new Image();
+sharkImages[1].src = "lsharkf-lfin-lrfoot-up.png";
+sharkImages[2] = new Image();
+sharkImages[2].src = "lsharkf-lfin-n-up.png";
+sharkImages[3] = new Image();
+sharkImages[3].src = "lsharkf-lfin-rfoot-up.png";
+sharkImages[4] = new Image();
+sharkImages[4].src = "lsharkf-lrfin-lfoot-up.png";
+sharkImages[5] = new Image();
+sharkImages[5].src = "lsharkf-lrfin-lrfoot-up.png";
+sharkImages[6] = new Image();
+sharkImages[6].src = "lsharkf-lrfin-n-up.png";
+sharkImages[7] = new Image();
+sharkImages[7].src = "lsharkf-lrfin-rfoot-up.png";
+sharkImages[8] = new Image();
+sharkImages[8].src = "lsharkf-n-lfoot-up.png";
+sharkImages[9] = new Image();
+sharkImages[9].src = "lsharkf-n-lrfoot-up.png";
+sharkImages[10] = new Image();
+sharkImages[10].src = "lsharkf-n-n.png";
+sharkImages[11] = new Image();
+sharkImages[11].src = "lsharkf-n-rfoot-up.png";
+sharkImages[12] = new Image();
+sharkImages[12].src = "lsharkf-rfin-lfoot-up.png";
+sharkImages[13] = new Image();
+sharkImages[13].src = "lsharkf-rfin-lrfoot-up.png";
+sharkImages[14] = new Image();
+sharkImages[14].src = "lsharkf-rfin-n-up.png";
+sharkImages[15] = new Image();
+sharkImages[15].src = "lsharkf-rfin-rfoot-up.png";
+sharkImages[16] = new Image();
+sharkImages[16].src = "lsharks-bffin-bffoot-up.png";
+sharkImages[17] = new Image();
+sharkImages[17].src = "lsharks-bffin-bfoot-up.png";
+sharkImages[18] = new Image();
+sharkImages[18].src = "lsharks-bffin-ffoot-up.png";
+sharkImages[19] = new Image();
+sharkImages[19].src = "lsharks-bffin-n-up.png";
+sharkImages[20] = new Image();
+sharkImages[20].src = "lsharks-bfin-bffoot-up.png";
+sharkImages[21] = new Image();
+sharkImages[21].src = "lsharks-bfin-bfoot-up.png";
+sharkImages[22] = new Image();
+sharkImages[22].src = "lsharks-bfin-ffoot-up.png";
+sharkImages[23] = new Image();
+sharkImages[23].src = "lsharks-bfin-n-up.png";
+sharkImages[24] = new Image();
+sharkImages[24].src = "lsharks-ffin-bffoot-up.png";
+sharkImages[25] = new Image();
+sharkImages[25].src = "lsharks-ffin-bfoot-up.png";
+sharkImages[26] = new Image();
+sharkImages[26].src = "lsharks-ffin-ffoot-up.png";
+sharkImages[27] = new Image();
+sharkImages[27].src = "lsharks-ffin-n-up.png";
+sharkImages[28] = new Image();
+sharkImages[28].src = "lsharks-n-bffoot-up.png";
+sharkImages[29] = new Image();
+sharkImages[29].src = "lsharks-n-bfoot-up.png";
+sharkImages[30] = new Image();
+sharkImages[30].src = "lsharks-n-ffoot-up.png";
+sharkImages[31] = new Image();
+sharkImages[31].src = "lsharks-n-n.png";
+
+
+function onClickChange(){
+	var rand = Math.floor(Math.random()*sharkImages.length);
+	var leftShark = document.getElementById("replace");
+	leftShark.src = sharkImages[rand].src;
+	
+ }
+
+  
+</script>
+
+
+  <div style ="text-align:center;">
+   	<img id="replace" src= "lsharkf-n-n.png" onclick="onClickChange()" border=0>
+	<img src= "katyperry.gif">	
+    <img src= "rshark.gif">	
+    
+    
+   
+	</body>
+	
+	<footer>
+	  <br><br><br><br><br><br>
+	  <h8>Click on Left Shark to make it dance!</h8>
+	
+	
+	</footer>
+	</div> 
+</html>
